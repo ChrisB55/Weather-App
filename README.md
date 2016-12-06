@@ -3,5 +3,8 @@ This project demonstrates how AngularJS can be used to create single pages appli
 
 ![Preview](https://github.com/ChrisB55/Weather-App/preview.png)
 
+[[https://github.com/ChrisB55/Weather-App/preview.png|alt=preview]
+
+
 Credits. 
 This project was modeled after the Learn and Understand Angular JS course project, with modifications/updates. 
