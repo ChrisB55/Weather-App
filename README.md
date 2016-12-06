@@ -1,2 +1,7 @@
-# Weather-App
-Weather Forecast Single Page App 
+##Weather Forecast Single Page App 
+This project demonstrates how AngularJS can be used to create single pages applications. It interacts with a free weather service API to return a (generally) accurate forecast for the region requested by the user. It shows the arrangement of controllers, directive, routing and services for an effective single page application. Please download and run on a local host if you'd like to use it. 
+
+![Preview](https://github.com/ChrisB55/Weather-App/preview.png)
+
+Credits. 
+This project was modeled after the Learn and Understand Angular JS course project, with modifications/updates. 
