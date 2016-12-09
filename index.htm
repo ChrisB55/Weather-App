@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="weatherApp">
 
-  <head>
+<head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,16 +10,28 @@
     <meta name="Chris B">
     <title>Easy Weather App </title>
 
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <style>
-
-        body {
+        .col-md-6 {
             background-image: url(../images/weather.jpg);
+            height: 500px;
+            border: solid 1px;
+            border-radius: 2px;
         }
     </style>
-  <body>
-      <div ng-view></div>
-  </body>
+
+    <body>
+        <div class="container">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div ng-view></div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+
+    </body>
+
 </html>
 
 <script src="//code.angularjs.org/1.5.9/angular.min.js"></script>
