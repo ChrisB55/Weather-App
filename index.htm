@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta "content_security_policy": "script-src 'self' https://api.openweathermap.org; object-src 'self'">
     <meta name="Weather APP using Angular JS" content="">
     <meta name="Chris B">
     <title>Easy Weather App </title>
@@ -18,11 +19,13 @@
             border: solid 1px;
             border-radius: 2px;
         }
+
     </style>
 
     <body>
         <div class="container">
             <div class="col-md-3"></div>
+            <h4>Check the weather:</h4>
             <div class="col-md-6">
                 <div ng-view></div>
             </div>
